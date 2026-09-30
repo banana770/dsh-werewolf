@@ -1,0 +1,30 @@
+{
+  "name": "@local/dsh-werewolf",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "狼人杀 agent 预设：会话里的智能体当法官，子代理扮演其他玩家，零 JS 代码。",
+  "license": "BSD-3-Clause",
+  "author": "banana770",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "agent-preset",
+    "werewolf",
+    "狼人杀",
+    "game"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/banana770/dsh-werewolf.git"
+  },
+  "homepage": "https://github.com/banana770/dsh-werewolf",
+  "bugs": {
+    "url": "https://github.com/banana770/dsh-werewolf/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

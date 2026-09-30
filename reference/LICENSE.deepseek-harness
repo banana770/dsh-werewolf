@@ -1,0 +1,34 @@
+本目录下的文件**不是本项目原创**，而是从 DeepSeek Harness 安装包（app.asar）中提取的
+官方包文档，版权归 DeepSeek 所有，以 MIT 许可发布。
+
+原文件位置示例：
+  <DSH 安装目录>/resources/app.asar → dsh/node_modules/@deepseek-ai/<包名>/README.zh.md
+
+提取方式见本仓库 tools/asar-peek.mjs。官方包升级后本目录可能过时，
+可用该工具重新提取最新版本。
+
+以下为原始许可条款：
+
+---------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 DeepSeek
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -1,0 +1,11 @@
+# 依赖
+node_modules/
+
+# 本地对局导出 —— 含真实玩家身份与夜间行动，绝不提交
+logs/
+
+# 编辑与系统产物
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
