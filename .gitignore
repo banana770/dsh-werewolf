@@ -9,3 +9,7 @@ logs/
 *.tmp
 .DS_Store
 Thumbs.db
+
+# 临时提交信息文件
+.cmsg
+.git-msg.txt
